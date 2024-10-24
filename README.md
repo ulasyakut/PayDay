@@ -12,3 +12,5 @@ the resulting string.
 Then,
 
 Write the test method in rocks.zipcode.PayDayTest to prove the _pay_ method works.
+
+-kristofer
