@@ -53,17 +53,37 @@ public class PayDay {
      * @return a string of the form "Kris 215.00 10.75 204.25”
      */
     public String pay(String name, double hourlyRate, double hoursWorked, double taxRate) {
-        return null;
+
+        double gp = grossPay(hourlyRate,hoursWorked);
+        double tax = deductTax(gp,taxRate);
+        double np = netPay(gp,tax);
+
+        return String.format("%s %.2f %.2f %.2f", name, gp ,tax , np);
+
+
+
     }
 
     public double grossPay(double rate, double hours) {
-        return -1.0;
+
+        double grossPay = rate * hours;
+        return grossPay;
+
+        //return -1.0;
     }
     public double deductTax(double gross, double taxRate) {
-        return -1.0;
+
+        double deductTax = gross * taxRate;
+        return deductTax;
+
+        //return -1.0;
     }
     public double netPay(double gross, double deduction) {
-        return -1.0;
+
+        double netPay = gross - deduction;
+        return netPay;
+
+        //return -1.0;
     }
 
     /*
@@ -74,7 +94,9 @@ public class PayDay {
      * 33.333333333 -> "33.33"
      */
     public String formatDollars(double amount) {
-        return "1.00";
+
+        return String.format("%.2f" , amount);
+        //return "1.00";
     }
 
     /**

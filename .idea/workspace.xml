@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a90c2d0b-55bd-403f-993a-301fa25009c6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/zipcode/PayDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/zipcode/PayDay.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +23,12 @@
     &quot;assignee&quot;: &quot;kristofer&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/ZCW-J102D52/PayDay.git&quot;,
-    &quot;accountId&quot;: &quot;d1f3d1d4-3b59-4378-bdc3-7873aa7ad4e4&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:ulasyakut/PayDay.git",
+    "accountId": "3f393130-6a27-4219-9d45-543d45a0e2fb"
   }
-}</component>
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -42,22 +43,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.PayDay.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PayDayTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PayDayTest.pay.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PayDayTest.test1grossPay.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PayDayTest.test1pay.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PayDayTest.test2grossPay.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.PayDay.executor": "Run",
+    "JUnit.PayDayTest.executor": "Run",
+    "JUnit.PayDayTest.pay.executor": "Run",
+    "JUnit.PayDayTest.test1grossPay.executor": "Run",
+    "JUnit.PayDayTest.test1pay.executor": "Run",
+    "JUnit.PayDayTest.test2grossPay.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/uyakut/Projects/PayDay",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="rocks.zipcode" />
@@ -155,9 +158,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PayDayTest" />
+        <item itemvalue="Application.PayDay" />
         <item itemvalue="JUnit.PayDayTest.test2grossPay" />
         <item itemvalue="JUnit.PayDayTest.test1grossPay" />
-        <item itemvalue="Application.PayDay" />
         <item itemvalue="JUnit.PayDayTest.test1pay" />
       </list>
     </recent_temporary>
